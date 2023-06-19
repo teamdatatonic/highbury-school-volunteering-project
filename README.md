@@ -6,6 +6,7 @@ File -> Open World -> [pick the world with the right task number]
 
 If you don't see the worlds, they should be in the following folder:
 highbury-school-volunteering-project -> highbury-grove-vol -> worlds
+
 Note: change this path if we rename the folders :)
 
 On the right hand side of the program is where the code is kept. This code is what moves the robot and will be what you should change to complete the tasks. If this file isnt there, or you acceidently close it, you can reopen it by doing:
@@ -21,7 +22,10 @@ If you accidently change the view of the camera in the world, you can easily get
 Control + Shift + V
 
 Or by hitting the button on the program with arrows circling an eye.
+
 Note: Maybe add image?
+
+Note: Write about where to change the code, ie only change the code inside the functions, dont mess with the function names or returns.
 
 Finally, make sure not to hit 'Save World' as this will overwrite the world that you are using. To make sure this doesnt happen, make a copy of the folder and store it somewhere else and then you can replace it if you change anything accidently.
 
