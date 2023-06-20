@@ -55,11 +55,22 @@ Task 3a - Collision Detection
 - How would you get it to stop at a different point to the barrier? (i.e. closer or farther away)
 - Think about how this could be applied to real-life
 
-Task 3b - Move towards a light
+Task 3b - Show anger
 - There is a new sensor! Now we are introducing a light sensor. This is similar to the distance sensor, there are two of them (i.e a left and right) in the same location as the distance sensors and their values range between 0 and 10. The more light they detect the higher the value the sensor outputs. 
 - There are now lights on the robot arena. They have no physical presence, so the distance sensors will not be able to detect them.
-- Get the robot to move towards the light
-(an if statement may be useful)
+- Here is the code we came up with for the robot to use the light and show anger
+- How might you have done differently?
+- Can you see how the robot is using the light sensors?
+
+Task 3c - show fear
+- Now we give out interpretation of how a robot might display fear
+- What would you do, would you do it similarly or in a different way to us?
+
+Task 4 - Show love
+- Now it is your turn.
+- Use the light sensors and try and get the robot to show love
+
+
 
 
 
