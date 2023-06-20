@@ -22,6 +22,42 @@ Robot {
   translation -2.5 -4.9 0
   rotation 0 1 0 1.57
   children [
+    LightSensor {
+      translation 0.03 0 0.1
+      rotation 0 1 0 -1.57
+      scale 3 3 3
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0 0 1
+            roughness 1
+            metalness 0
+          }
+          geometry Box {
+            size 0.01 0.01 0.01
+          }
+        }
+      ]
+      name "ls_left"
+    }
+    LightSensor {
+      translation -0.03 0 0.1
+      rotation 0 1 0 -1.57
+      scale 3 3 3
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0 0 1
+            roughness 1
+            metalness 0
+          }
+          geometry Box {
+            size 0.01 0.01 0.01
+          }
+        }
+      ]
+      name "ls_right"
+    }
     DistanceSensor {
       translation 0.03 0 0.1
       rotation 0 1 0 -1.57

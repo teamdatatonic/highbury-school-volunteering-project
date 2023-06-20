@@ -1,10 +1,15 @@
-#VRML_SIM R2021a utf8
+#VRML_SIM R2023a utf8
+
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023a/projects/appearances/protos/Parquetry.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023a/projects/objects/floors/protos/RectangleArena.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023a/projects/objects/backgrounds/protos/TexturedBackground.proto"
+
 WorldInfo {
   coordinateSystem "NUE"
 }
 Viewpoint {
-  orientation 0.35 0 0 4.7
-  position -1.74 1.32 0
+  orientation 0.7070999954587589 -0.7071000007948959 0.0043801025195354905 3.132832291757186
+  position -0.6639401790187967 5.256230080401364 -0.4894388731564474
 }
 TexturedBackground {
   texture "noon_cloudy_countryside"
@@ -12,19 +17,19 @@ TexturedBackground {
 RectangleArena {
   translation 0 -5 0
   rotation -1 0 0 1.57079632679
-  floorSize 10 10
-  floorAppearance Parquetry{
+  floorSize 20 20
+  floorAppearance Parquetry {
     type "light strip"
     colorOverride 0.777 1 0.419
   }
 }
 Robot {
-  translation -2.5 -4.9 0
+  translation -2.16999 -4.9 -0.109736
   rotation 0 1 0 1.57
   children [
     LightSensor {
       translation 0.03 0 0.1
-      rotation 0 1 0 -1.57
+      rotation 0 1 0 -1.5699953071795862
       scale 3 3 3
       children [
         Shape {
@@ -42,7 +47,7 @@ Robot {
     }
     LightSensor {
       translation -0.03 0 0.1
-      rotation 0 1 0 -1.57
+      rotation 0 -1 0 1.57
       scale 3 3 3
       children [
         Shape {
@@ -57,23 +62,6 @@ Robot {
         }
       ]
       name "ls_right"
-    }
-    DistanceSensor {
-      translation 0.03 0 0.1
-      rotation 0 1 0 -1.57
-      children [
-        Shape {
-          appearance PBRAppearance {
-            baseColor 0 1 1
-            roughness 1
-            metalness 0
-          }
-          geometry Box {
-            size 0.01 0.01 0.01
-          }
-        }
-      ]
-      name "ds_left"
     }
     DistanceSensor {
       translation -0.03 0 0.1
@@ -117,7 +105,7 @@ Robot {
         rotation 1 0 0 6.253150268834896
         children [
           DEF WHEEL Transform {
-            rotation 0 0 1 1.5708
+            rotation -0.5773488553723224 -0.5773509760969792 0.5773509760969793 2.094397223120449
             children [
               Shape {
                 appearance PBRAppearance {
@@ -211,35 +199,13 @@ Robot {
     density -1
     mass 1
   }
-  controller "task3a_collision_detection"
+  controller "task3b_show_anger"
 }
-
-Road{
-  translation 5 -4.999 0.3
-  rotation 0 0.707 0.707 3.14
-  width 1
-  NumberOfForwardLanes 2
-  lines [
-    RoadLine{
-      type "continuous"
-      width 0.05
-    }
-  ]
-  wayPoints [
-    0 0 0 
-    10 0 0 
-  ]
-  roadBorderHeight 0
-  roadBorderWidth 0.3
+PointLight {
+  attenuation 0 0 1
+  location 1 -4 -1
 }
-
-CrashBarrier{
-  translation -1.01 -5.49 -0.27
-  rotation 0.569 0.569 0.569 -2.07
-  poleGap 0.9
-  path [
-    0 0 0
-    1 0 0
-  ]
-  enableBoundingObject TRUE
+PointLight {
+  attenuation 0 0 1
+  location -1 -4 1
 }
