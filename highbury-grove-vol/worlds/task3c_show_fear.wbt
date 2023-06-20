@@ -1,6 +1,5 @@
 #VRML_SIM R2023a utf8
 
-EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023a/projects/appearances/protos/Parquetry.proto"
 EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023a/projects/objects/floors/protos/RectangleArena.proto"
 EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023a/projects/objects/backgrounds/protos/TexturedBackground.proto"
 
@@ -12,19 +11,15 @@ Viewpoint {
   position -0.6639401790187967 5.256230080401364 -0.4894388731564474
 }
 TexturedBackground {
-  texture "noon_cloudy_countryside"
+  texture "noon_stormy_empty"
 }
 RectangleArena {
   translation 0 -5 0
   rotation -1 0 0 1.57079632679
   floorSize 20 20
-  floorAppearance Parquetry {
-    type "light strip"
-    colorOverride 0.777 1 0.419
-  }
 }
 Robot {
-  translation -2.16999 -4.9 -0.109736
+  translation -2.53016 -4.9 0.059976
   rotation 0 1 0 1.57
   children [
     LightSensor {
@@ -199,13 +194,12 @@ Robot {
     density -1
     mass 1
   }
+  locked TRUE
   controller "task3c_show_fear"
 }
 PointLight {
   attenuation 0 0 1
+  intensity 1.5
   location 1 -4 -1
-}
-PointLight {
-  attenuation 0 0 1
-  location -1 -4 1
+  radius 50
 }

@@ -106,36 +106,15 @@ def task3a_collision_detection(left_distance_sensor, right_distance_sensor):
     return left_speed, right_speed
 
 
+    # Open the world called task3b_show_anger.wbt
 def task3b_show_anger(left_light_sensor, right_light_sensor):
 
     #--------------WRITE-ANSWER-BELOW----------------------
-    # if left_light_sensor-right_light_sensor>=2:
-        # left_speed = -10
-        # right_speed = 10
-    # elif right_light_sensor-left_light_sensor>=2:
-        # left_speed = 10
-        # right_speed = -10
-    # else:
-        # left_speed = 10
-        # right_speed = 10
-        
-        
-    # if left_light_sensor<0.1 and right_light_sensor<0.1:
-        # left_speed = 10
-        # right_speed = 10
-    # else:
-        # left_speed = left_light_sensor
-        # right_speed = right_light_sensor
-        
+
     left_speed = right_light_sensor
     right_speed = left_light_sensor
         
-    # if left_light_sensor+right_light_sensor<2:
-        # left_speed = 10-right_light_sensor
-        # right_speed = -10+left_light_sensor
-    # else:
-        # left_speed = right_light_sensor
-        # right_speed = left_light_sensor
+    
     
     #Print the wheel speeds
     print("-----------------------")
@@ -148,13 +127,14 @@ def task3b_show_anger(left_light_sensor, right_light_sensor):
 
     return left_speed, right_speed
 
+    # Open the world called task3c_show_fear.wbt
 def task3c_show_fear(left_light_sensor, right_light_sensor):
 
     #--------------WRITE-ANSWER-BELOW----------------------
 
         
-    left_speed = right_light_sensor
-    right_speed = left_light_sensor
+    left_speed = 10-right_light_sensor
+    right_speed = 10-left_light_sensor
     
     #Print the wheel speeds
     print("-----------------------")
@@ -166,14 +146,19 @@ def task3c_show_fear(left_light_sensor, right_light_sensor):
     #-------------WRITE-ANSWER-ABOVE----------------------
 
     return left_speed, right_speed
-
+    
+    
+    
+    
+    
+    # Open the world called task4_show_love.wbt
 def task4_show_love(left_light_sensor, right_light_sensor):
 
     #--------------WRITE-ANSWER-BELOW----------------------
 
         
-    left_speed = right_light_sensor
-    right_speed = left_light_sensor
+    left_speed = 10-left_light_sensor
+    right_speed = 10-right_light_sensor
     
     #Print the wheel speeds
     print("-----------------------")
