@@ -147,3 +147,41 @@ def task3b_show_anger(left_light_sensor, right_light_sensor):
     #-------------WRITE-ANSWER-ABOVE----------------------
 
     return left_speed, right_speed
+
+def task3c_show_fear(left_light_sensor, right_light_sensor):
+
+    #--------------WRITE-ANSWER-BELOW----------------------
+
+        
+    left_speed = right_light_sensor
+    right_speed = left_light_sensor
+    
+    #Print the wheel speeds
+    print("-----------------------")
+    print(" left_light_sensor : ", left_light_sensor)
+    print(" right_light_sensor : ", right_light_sensor)
+    print(" left_speed : ", left_speed)
+    print(" right_speed: ", right_speed)
+
+    #-------------WRITE-ANSWER-ABOVE----------------------
+
+    return left_speed, right_speed
+
+def task4_show_love(left_light_sensor, right_light_sensor):
+
+    #--------------WRITE-ANSWER-BELOW----------------------
+
+        
+    left_speed = right_light_sensor
+    right_speed = left_light_sensor
+    
+    #Print the wheel speeds
+    print("-----------------------")
+    print(" left_light_sensor : ", left_light_sensor)
+    print(" right_light_sensor : ", right_light_sensor)
+    print(" left_speed : ", left_speed)
+    print(" right_speed: ", right_speed)
+
+    #-------------WRITE-ANSWER-ABOVE----------------------
+
+    return left_speed, right_speed
