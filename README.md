@@ -75,11 +75,11 @@ Finally, make sure not to hit 'Save World' as this will overwrite the world that
 - Use the light sensors and try and get the robot to show love
 
 
-# Task 5 - Research and Present your Findings
+# Task 5 - Research and Present Your Findings
 1. Research the applications of this technology
-a) one interesting fact about automated vehicles
+a) One interesting fact about automated vehicles
 b) Any pro’s and con’s - think about the environment, accessibility for everyone in society, costs, road accidents
 
-2. Near future applications on this type of technology (add video on Artificial Intelligence and robots) - how do you think this technology will change our world? 
+2. Near future applications on this type of technology (add video on Artificial Intelligence and Robotics) - how do you think this technology will change our world? Do you think it will have a positive or negative impact on society?  
 
-3. What can you imagine we could use this type of technology for in 100 years - think about how it’s being used now, how it’s planned on being in the future, and what you would do differently. 
+3. What can you imagine we could use this type of technology for in 100 years - think about how it’s being used now, how it’s planned on being in the future, and what you would do differently. How could it improve the world we live in?  
