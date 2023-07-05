@@ -30,8 +30,9 @@ Or by hitting the button on the program with arrows circling an eye.
 
 Finally, make sure not to hit 'Save World' as this will overwrite the world that you are using. To make sure this doesnt happen, make a copy of the folder and store it somewhere else and then you can replace it if you change anything accidently.
 
-# Install packages
+# Install packages and Webots
 `pip install controller`
+- Download Webots from `https://cyberbotics.com/`
 
 
 # Task 1 - Moving
