@@ -15,3 +15,7 @@
 
 # Resources
 - Video from introduction session on self-drive cars: https://www.youtube.com/watch?v=taMP_n3wL7M
+
+Notes:
+- what would happen if deleted, made mistake, save twice in case all files are deleted,
+- 
