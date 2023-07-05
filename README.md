@@ -10,7 +10,7 @@ highbury-school-volunteering-project -> highbury-grove-vol -> worlds
 
 *Note: change this path if we rename the folders :)*
 
-On the right hand side of the program is where the code is kept. This code is what moves the robot and will be what you should change to complete the tasks. If this file isnt there, or you accidently close it, you can reopen it by doing:
+On the right hand side of the program is where the Python code is kept. This `student_file.py` is what moves the robot and will be what you should change to complete the tasks. If this file isnt there, or you accidently close it, you can reopen it by doing:
 
 `Tools -> Text Editor`
 
