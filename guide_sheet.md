@@ -3,8 +3,8 @@
 - Use your imagination! Get creative when thinking about what this type of technology could do in the future. There is no right or wrong answer for Task 5! 
 
 # Webots
-- Webots is a robot simulation software package
-- You can use different coding langauges in Webots, to build your world and Robots. We will be using Python, which is one of major coding languages used for programming!
+- Webots is a robot simulation software package, which allows you to create 3D virtual worlds. It is used in a number of industries such as the automotive industry, aeronautics, the vacuum cleaner industry and the toy industry 
+- You can use different coding langauges in Webots, to build your Worlds and Robots. We will be using Python, which is one of major coding languages used for programming!
 
 # Guide
 - Work through tasks 1 to 4 by following the steps in the ReadMe file.
