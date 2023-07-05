@@ -80,7 +80,11 @@ Finally, make sure not to hit 'Save World' as this will overwrite the world that
 - One interesting fact about automated vehicles
 - Any pro’s and con’s - think about the environment, accessibility for everyone in society, costs, road accidents
 
-2. Near future applications on this type of technology (add video on Artificial Intelligence and Robotics)
+2. Near future applications on this type of technology
+- Check out this videos on AI and Robotics:
+  https://www.youtube.com/watch?v=yCXm5cgG0UA
+- Meet the AI Robot capable of Human Emotion:
+  https://www.youtube.com/watch?v=wGWVKkYEHBE
 - How do you think this technology will change our world?
 - Do you think it will have a positive or negative impact on society, and why?  
 
