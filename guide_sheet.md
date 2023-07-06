@@ -15,8 +15,8 @@
 
 # Resources
 - Video from introduction session on self-drive cars: https://www.youtube.com/watch?v=taMP_n3wL7M
-- Check out this videos on AI and Robotics: https://www.youtube.com/watch?v=yCXm5cgG0UA
-- Meet the AI Robot capable of Human Emotion: https://www.youtube.com/watch?v=wGWVKkYEHBE
+- Videos on AI and Robotic: https://www.youtube.com/watch?v=yCXm5cgG0UA
+- Video of AI Robot capable of Human Emotion: https://www.youtube.com/watch?v=wGWVKkYEHBE
 
 Notes:
 - what would happen if deleted, made mistake, save twice in case all files are deleted,
