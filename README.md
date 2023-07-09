@@ -118,6 +118,11 @@ Finally, make sure not to hit 'Save World' as this will overwrite the world that
 
 <br/>
 
+# Explanation for Task 3b - Show anger: 
+If you let `vehicle 3b ` move around in the world for a while
+with the source it turn toward the source and eventually hit it. There is no escaping: as long as `vehicle 3b ` stays in the vicinity of the source, no matter how it stumbles and hesitates, it will hit the source frontally in the end. `Vehicle 3b ` gets excited by the presence of source, but resolutely turns toward them and hits them with high velocity, as if it wanted to destroy them. `vehicle 3b ` is AGGRESSIVE, obviously
+
+
 # Task 3c - show fear
 - Now we give out interpretation of how a robot might display fear
 - What would you do, would you do it similarly or in a different way to us?
@@ -126,6 +131,10 @@ Finally, make sure not to hit 'Save World' as this will overwrite the world that
 <video controls> <source src="example_task_solutions/Task3c_Show_Fear.mp4" type="video/mp4"> </video>
 
 <br/>
+
+# Explanation for Task 3c - Show fear: 
+If you look closely, you will notice that both `vehicle 3c` fear and `vehicle 3c` - anger have one thing in common, even though their characters are quite opposite. They Both DISLIKE the light source. `vehicle 3c` becomes restless in it's vicinity and tends to avoid them, escaping until it safely reaches a place where the influence of the source is scarcely felt.
+
 
 
 # Task 4 - Show love
