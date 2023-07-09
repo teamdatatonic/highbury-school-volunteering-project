@@ -136,10 +136,12 @@ with the source it turn toward the source and eventually hit it. There is no esc
 If you look closely, you will notice that both `vehicle 3c` fear and `vehicle 3c` - anger have one thing in common, even though their characters are quite opposite. They Both DISLIKE the light source. `vehicle 3c` becomes restless in it's vicinity and tends to avoid them, escaping until it safely reaches a place where the influence of the source is scarcely felt.
 
 
-
 # Task 4 - Show love
 - Now it is your turn.
 - Use the light sensors and try and get the robot to show love
+
+# Explanation for Task 3c - Show love
+The aim of this task is to get `Vehicle 4` to show LOVE to the light source in a permanent way by staying close by in quiet admiration from the time it spots the source to all future time. When `Vehicle 4` senses the light source, it approaches the source, in such a way it orients toward it, since `Vehicle 4` is on an oblique course, the sensor nearer to the source will slow down the motor on the same side, producing a turn toward that side and coming to rest facing the source.
 
 
 # Task 5 - Research and Present Your Findings
