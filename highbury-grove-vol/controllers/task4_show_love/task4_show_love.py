@@ -3,10 +3,6 @@
 # You may need to import some classes of the controller module. Ex:
 #  from controller import Robot, Motor, DistanceSensor
 from controller import Robot
-import sys
-rep1, rep2 = sys.path[0].split("/")[-2:]
-print(rep1)
-sys.path.insert(1, sys.path[0].replace(rep1+'/'+rep2, ""))
 from student_file import task4_show_love
 
 timestep = 64
